@@ -89,6 +89,6 @@ app.post("/register",async(req,res)=>{
 app.use("/dashboardRoute",dashboardRoute);
 
 
-app.listen(3000,()=>{
+app.listen(10000,()=>{
     console.log("port connected");
 })
